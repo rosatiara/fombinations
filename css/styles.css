@@ -1,0 +1,653 @@
+*, ::before, ::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* PRIMARY STYLES */
+
+.intro {
+  height: 20rem;
+  width: 100%;
+  background-color: #191817;
+}
+
+.intro_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 8rem;
+  width: 100%
+}
+.intro_title {
+  display: inline-block;
+  color: #a166ab;
+  font-size: 10vw;
+}
+
+@supports ((background-clip: text) or (-webkit-background-clip: text)) and
+  ((text-fill-color: transparent) or (-webkit-text-fill-color: transparent)) {
+  .intro_title {
+    background-image: linear-gradient(90deg, #f79533 0%, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-emphasis-color: transparent;
+  }
+}
+a:not(.googlefonts) {
+  color: #a8dafc;
+ 
+}
+.googlefonts {
+  text-decoration: none;
+  color:#a8dafc;
+}
+.pinterest:hover {
+ color: #d36683;
+}
+.unsplash:hover {
+  color: #434244;
+}
+.github:hover {
+  color: #f1f1f1;
+}
+.intro_desc  {
+  position: relative;
+  bottom: 1.2rem;
+  color: #a8dafc;
+  font-size: 1.5vw;
+}
+.desc-flex {
+  position: relative;
+  bottom: 0.5rem;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  color: #b8c3ca;
+  font-size: 0.7vw;
+}
+.container {
+  width: 100%;
+}
+
+/* HEARTS LIKE WILDFLOWERS */
+.container_hearts {
+  min-height: 30rem;
+  background: url(/img/pic1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content_hearts {
+  display: flex;
+  /* border: 2px solid saddlebrown; */
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 6.5rem;
+  width: 100%;
+}
+
+.title_hearts {
+  font-size: 1.75rem;
+  /* border: 2px solid blue; */
+}
+.poem_hearts {
+  /* border: 2px solid salmon; */
+  margin-top: 2rem;
+}
+.poem_hearts p {
+  text-align: center;
+}
+.author_hearts {
+  margin-top: 1.75rem;
+}
+
+
+/* ----------- */
+/* DUST OF SNOW */
+/* ----------- */
+.container_dust {
+  min-height: 25rem;
+  background-color: #F3F1F5;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content_dust {
+  display: flex;
+  /* border: 2px solid saddlebrown; */
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 5rem;
+  width: 100%;
+  color: rgb(92, 119, 122);
+}
+
+.title_dust {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+/* ------------------------- */
+/* JOHN KEATS ON BEING POOR */
+/* ------------------------ */
+.container_john-poor {
+  background:url(/img/pic3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 28rem;
+}
+
+.content_john-poor {
+  position: relative;
+  /* border: 2px solid red; */
+  display: flex;
+  /* border: 2px solid saddlebrown; */
+  flex-direction: column;
+  align-items: center;
+  top: 7rem;
+  width: 100%;
+  color: rgb(228, 228, 228);
+}
+.poem_john-poor {
+  /* border: 2px solid yellow; */
+  font-size: 2rem;
+}
+
+.author_john-poor {
+  float: right;
+  margin-left: 13rem;
+  margin-top: 1rem;
+  /* border: 2px solid brown; */
+}
+
+/* ------------- */
+/* WINTER CHEER */
+/* ------------ */
+
+.wrapper_winter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 32rem;
+  background-color: #B2DFF6;
+}
+.fonts-used_winter {
+  justify-content: space-between;
+}
+.content_winter {
+  position: relative;
+  color: rgb(82, 82, 82);
+  /* border: 2px solid rebeccapurple; */
+  top: 7rem;
+  text-align: center;
+  justify-content: space-between;
+}
+.title_winter {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.poem_winter {
+  position: relative;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+.hr-mary {
+  margin-bottom: 1rem;
+  width: 2rem;
+  position: sticky;
+  left: 10rem;
+}
+/* ----------- */
+/* JOHN YOUNG */
+/* ------------ */
+.wrapper_atticus {
+  height: 32rem;
+  background: url(/img/book-atticus.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(153, 153, 153);
+  height: 30rem;
+}
+.content_atticus {
+  position: relative;
+  width: 10rem;
+  /* border: 2px solid red; */
+  top: 5rem;
+  margin-left: 2.2rem;
+}
+.poem_atticus {
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+.author_atticus {
+  margin-top: 2rem;
+}
+/* -------- */
+/* EARTH  */
+/* --------- */
+
+.wrapper_earth {
+  height: 30rem;
+  background: url(/img/earth.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.content_earth {
+  position: relative;
+  color: rgba(4, 63, 4, 0.808);
+  line-height: 25px;
+  font-size: 2rem;
+  top: 5.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.earth {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+.has-music {
+  font-size: 1.5rem;
+}
+.listen {
+  font-size: 4rem;
+}
+.for-those-who {
+  letter-spacing: 4px;
+  font-size: 1rem;
+}
+/* ============= */
+/* LIBERTY */
+/*  ============== */
+.wrapper_liberty {
+  background: url(/img/liberty.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 38rem;
+}
+.content_liberty {
+  position: relative;
+  color: rgba(184, 233, 241, 0.658);
+  top: 6rem;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align:center;
+}
+.title_liberty {
+  font-size: 2rem;
+}
+.poem_liberty {
+  line-height: 30px;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+/* ======= */
+/* DARK NIGHT POEM */
+/*  ========== */
+
+.wrapper_dark-night {
+  height: 18rem;
+  background: url(/img/paper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content_dark-night {
+  color: rgba(59, 47, 47, 0.849);
+  /* border: 2px solid red; */
+  position: relative;
+  top: 3.7rem;
+  margin-left: 3.5rem;
+}
+.title_dark-night {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+.poem_dark-night {
+  font-size: 1.2rem;
+}
+.fonts-used-dark {
+  width: 22rem;
+  color: rgb(71, 71, 71);
+  position: relative;
+  top: 2rem;
+  left: 1.2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content:space-around;
+}
+/* --------------- */
+/* BUGS */
+/* ----------- */
+.wrapper_bugs {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  height: 30rem;
+  background: url(/img/bugs.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(46, 112, 46);
+  overflow: hidden;
+}
+
+.content_bugs {
+  /* border: 2px solid red; */
+  position: relative;
+
+}
+.title_bugs {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.poem_bugs {
+  font-size: 1.2rem;
+}
+/* --------- */
+/* KINDNESS */
+/* ----------- */
+.wrapper_kindness {
+  min-height: 35rem;
+  background: url(/img/kindness.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgba(250, 225, 225, 0.664);
+  overflow: hidden;
+}
+.content_kindness {
+  position: relative;
+  top: 5rem;
+  /* left: 2.5rem; */
+  align-items: center;
+  text-align: center;
+}
+.poem_kindness {
+  margin-bottom: 1.75rem;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+.author_kindness {
+  font-size: 0.75rem;
+}
+/* ============ */
+/* LAZY JANE */
+/* ========= */
+
+.wrapper_lazy-jane {
+  min-height: 80rem;
+}
+.content_lazy-jane {
+  
+  position: relative;
+  top: 4rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.title_lazy-jane {
+  color: rgb(15, 15, 15);
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.poem_lazy-jane {
+  color: rgb(39, 39, 39);
+  font-size: 1.25rem;
+  line-height: 30px;
+  margin-bottom: 1rem;
+}
+/* ----------- */
+/* INVITATION */
+/* ------------*/
+.wrapper_invitation {
+  min-height: 40rem;
+  background: url(/img/invitation.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgba(92, 87, 83, 0.664);
+  overflow: hidden;
+}
+.content_invitation {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  top: 10rem;
+  left: 3rem;
+}
+.title_invitation {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.poem_invitation {
+  line-height: 25px;
+  font-size: 0.8rem;
+}
+/* VOYAGE */
+.wrapper_voyage {
+  min-height: 32rem;
+  background: url(/img/voyage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgba(39, 36, 34, 0.664);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  
+}
+.content_voyage {
+  position: relative;
+  top: 3rem;
+}
+.title_voyage {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.float-right {
+  position: relative;
+  left: 3rem;
+}
+.author_voyage {
+  margin-top: 1.75rem;
+  position: relative;
+  left: 2rem;
+}
+/* WENDY */
+.wrapper_wendy {
+  min-height: 35rem;
+  background: url(/img/wendy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgba(39, 36, 34, 0.664);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.about_wendy {
+  margin-top: 7rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.author_wendy {
+  margin-bottom: 1rem;
+}
+.title1_wendy {
+  margin: 1rem 0;
+}
+.hr-wendy {
+  position: relative;
+  left: 1rem;
+  width: 8rem;
+}
+.poem_wendy {
+  position: relative;
+  left: 1rem;
+  font-size: 0.8rem;
+  line-height: 15px;
+  margin: auto;
+  margin-top: 1rem;
+}
+/* PHOENIX */
+.wrapper_phoenix {
+  min-height: 45rem;
+  background: url(/img/phoenix.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgba(39, 36, 34, 0.664);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.content_phoenix {
+  color: rgba(255, 255, 255, 0.63);
+  text-align: center;
+  margin-top: 6rem;
+}
+.title_phoenix {
+  font-size: 1.5rem;
+  width: 15rem;
+}
+.poem_phoenix {
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+  line-height: 20px;
+}
+/* FOOTER */
+.footer-wrapper {
+  background-color: rgb(19, 19, 19);
+  color: rgb(151, 151, 151);
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (min-width: 360px) {
+  hr {
+    display: none;
+  }
+  
+}
+@media (min-width: 640px) {
+  .intro {
+    height: 30rem;
+  }
+  .intro_content {
+    top:10rem;
+  }
+  hr {
+    display: none;
+  }
+  .container_hearts {
+    height: 50rem;
+  }
+  .content_hearts {
+    position: relative;
+    top:12rem;
+    font-size: 1.5rem;
+  }
+  .container_john-poor {
+    height: 45rem;
+  }
+  .content_john-poor {
+    position: relative;
+    top:15rem;
+    font-size: 1.5rem;
+  }
+  .container_john-poor {
+    height: 40rem;
+  }
+  .content_winter {
+    position: relative;
+    top:6rem;
+    font-size: 1.25rem;
+  }
+  .wrapper_earth {
+    height: 50rem;
+  }
+  .wrapper_liberty {
+    height: 50rem;
+  }
+  .content_liberty {
+    top: 13rem;
+  }
+  .wrapper_kindness, .wrapper_voyage {
+    height: 50rem;
+  }
+  .content_lazy-jane {
+    top: 9rem;
+  }
+  .content_voyage {
+    margin-top: 10rem;
+    font-size:larger;
+  }
+  .wrapper_phoenix {
+    height: 45rem;
+  }
+  .content_phoenix {
+    top: 15rem;
+    font-size: larger;
+  }
+ 
+}
+@media (min-width:950px) {
+  .intro {
+    height: 40rem;
+  }
+  .intro_content {
+    top: 12rem;
+  }
+}
+@media (min-width:1600px) {
+  .intro {
+    height: 50rem;
+  }
+  .intro_content {
+    top: 13rem;
+  }
+}
