@@ -536,6 +536,7 @@ a:not(.googlefonts) {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   color: rgba(39, 36, 34, 0.664);
   overflow: hidden;
   display: flex;
