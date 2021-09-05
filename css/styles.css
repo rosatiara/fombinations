@@ -95,10 +95,8 @@ a:not(.googlefonts) {
 
 .title_hearts {
   font-size: 1.75rem;
-  /* border: 2px solid blue; */
 }
 .poem_hearts {
-  /* border: 2px solid salmon; */
   margin-top: 2rem;
 }
 .poem_hearts p {
@@ -123,7 +121,6 @@ a:not(.googlefonts) {
 
 .content_dust {
   display: flex;
-  /* border: 2px solid saddlebrown; */
   flex-direction: column;
   align-items: center;
   position: relative;
@@ -152,9 +149,7 @@ a:not(.googlefonts) {
 
 .content_john-poor {
   position: relative;
-  /* border: 2px solid red; */
   display: flex;
-  /* border: 2px solid saddlebrown; */
   flex-direction: column;
   align-items: center;
   top: 7rem;
@@ -162,7 +157,6 @@ a:not(.googlefonts) {
   color: rgb(228, 228, 228);
 }
 .poem_john-poor {
-  /* border: 2px solid yellow; */
   font-size: 2rem;
 }
 
@@ -170,7 +164,6 @@ a:not(.googlefonts) {
   float: right;
   margin-left: 13rem;
   margin-top: 1rem;
-  /* border: 2px solid brown; */
 }
 
 /* ------------- */
@@ -190,7 +183,6 @@ a:not(.googlefonts) {
 .content_winter {
   position: relative;
   color: rgb(82, 82, 82);
-  /* border: 2px solid rebeccapurple; */
   top: 7rem;
   text-align: center;
   justify-content: space-between;
@@ -226,7 +218,6 @@ a:not(.googlefonts) {
 .content_atticus {
   position: relative;
   width: 10rem;
-  /* border: 2px solid red; */
   top: 5rem;
   margin-left: 2.2rem;
 }
@@ -291,7 +282,6 @@ a:not(.googlefonts) {
   position: relative;
   color: rgba(184, 233, 241, 0.658);
   top: 6rem;
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -319,7 +309,6 @@ a:not(.googlefonts) {
 }
 .content_dark-night {
   color: rgba(59, 47, 47, 0.849);
-  /* border: 2px solid red; */
   position: relative;
   top: 3.7rem;
   margin-left: 3.5rem;
@@ -362,7 +351,6 @@ a:not(.googlefonts) {
 }
 
 .content_bugs {
-  /* border: 2px solid red; */
   position: relative;
 
 }
@@ -389,7 +377,6 @@ a:not(.googlefonts) {
 .content_kindness {
   position: relative;
   top: 5rem;
-  /* left: 2.5rem; */
   align-items: center;
   text-align: center;
 }
